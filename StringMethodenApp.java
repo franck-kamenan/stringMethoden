@@ -24,5 +24,12 @@ public class StringMethodenApp
         System.out.println(monString.substring(6));
         System.out.println(monString.substring(2, 5));
         System.out.println(monString.compareTo(autreString));
+
+        String joJO = "Za warudo.";
+        System.out.println(joJO);
+        int jonathan = joJO.indexOf('a');
+        System.out.println(jonathan);
+        int joseph = joJO.indexOf('a', jonathan + 1);
+        System.out.println(joseph);
     }
 }
